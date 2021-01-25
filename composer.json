@@ -1,0 +1,29 @@
+{
+    "name": "armincms/ranika",
+    "description": "A Laravel Nova tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "armincms/blogger": "^0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Armincms\\Ranika\\": "src/" 
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [ 
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
