@@ -17,7 +17,7 @@ class ServiceProvider extends LaravelServiceProvider implements DeferrableProvid
     { 
         $this->app->booted(function() { 
             app('site')->get('store')->component('product')->config([
-                'layout' => 'sirocco'
+                'layout' => 'clarity'
             ]);
         });
     }
